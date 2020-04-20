@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"module": "esnext",
+		"target": "es5",
+		"lib": ["dom", "dom.iterable", "esnext", "es2020"],
+		"allowJs": true,
+		"skipLibCheck": true, //모든 선언파일(*.d.ts)의 유형검사를 건너뛸지 여부
+		"strict": true,
+		"forceConsistentCasingInFileNames": true, // 파일명에 대소문자 구분하지 않아도 되는 기능 사용 여부
+		"noEmit": true,
+		"esModuleInterop": true,
+		"moduleResolution": "node", // 모듈 (검색)해석 방식 설정
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"jsx": "preserve"
+	},
+	"exclude": ["node_modules"],
+	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
+}

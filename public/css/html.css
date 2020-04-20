@@ -1,0 +1,50 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	/*font: inherit;*/
+	vertical-align: baseline;
+	min-width: 428px;
+}
+
+@media all and (max-width: 500px) {
+	.contentBody{
+		padding-left: 100px;
+	}
+	.content {
+		position: fixed;
+		/*left: 50px;*/
+		z-index:10 !important;
+	}
+	.naveBar {
+		position: fixed;
+		left: 100px;
+		justify-content: space-around !important;
+		width: calc(100% - 100px) !important;
+		z-index:10000 !important;
+	}
+	.contentBodyItem{
+		z-index:10 !important;
+	}
+	.naveBar > ul:last-child ul{
+		position: absolute;
+		right:10px;
+	}
+	.preViewBlock, .userForm{
+		width: calc(100% - 100px) !important;
+	}
+	.settingBlock{
+		padding-top: 10px;
+	}
+	.settingForm{
+		width: calc(100% - 100px) !important;
+		flex-direction: column !important;
+		justify-content: center;
+		align-items: center;
+	}
+	#cardBlock{
+		transform: scale(0.7);
+	}
+
+}
