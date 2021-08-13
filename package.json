@@ -29,7 +29,7 @@
 		"helmet": "^3.22.0",
 		"hpp": "^0.2.3",
 		"morgan": "^1.10.0",
-		"next": "^9.3.5",
+		"next": "^11.1.0",
 		"next-redux-saga": "^4.1.2",
 		"next-redux-wrapper": "^5.0.0",
 		"prop-types": "^15.7.2",
